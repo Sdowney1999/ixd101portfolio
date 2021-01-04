@@ -1,0 +1,224 @@
+/* ------------------ STYLING --------------------*/
+body {
+   font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    color: #355;
+}
+  
+  section {    
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+  
+  
+  h1, h2, {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+  
+h1, h2, h3{ font-family: 'Red Hat Display', sans-serif;
+    }
+
+
+  /*---- heading ----*/
+
+  h1 {font-size: 3.8em; 
+      margin-bottom 0.5em;
+}
+
+  h2 {font-size: 2.70em; 
+      margin: 1em 0; 
+      color: #439ff2;
+}
+  
+  p {font-size: 1.22em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+    font-weight: 200;
+    font-family: 'Red Hat Text', sans-serif;
+}
+  
+  header {
+    width: 90%;
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+}
+  
+  header h1 { 
+    font-size: 5.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: inherit;
+}
+
+nav h1 { text-align: center;
+        margin: 10px;
+    
+}
+  header h2 {
+    font-size: 2.75em;
+    line-height: auto;
+    text-align: left;
+  }
+  
+  
+  /*---------------- PORTFOLIO SECTION ------------------*/
+  
+ /* .portfolio h2 { max-width: 960px; margin: 3em auto;} */
+  
+ .portfolio{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px auto); */
+  
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) ) ; 
+  }
+   
+  .portfolio h1 {
+    text-align: center}
+  
+  li {
+    position: relative;}
+  
+  .portfolio-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .portfolio-title:hover {
+    background: #333;
+    color: #fff;
+  }
+
+.follow {margin-bottom: 3em;}
+  
+  /*---------------- BACKGROUNDS ----------------*/
+
+.background{
+      padding: 2em 0;
+      background: lightblue;
+      color: black;
+}
+
+.connections li {
+                padding:0%;
+                list-style:none;
+                display: inline-block;
+                background-color: azure;
+}
+
+.connections a:link {
+                      border-bottom: none;
+}
+
+.connections img, .connections svg{ border:none;
+}
+
+.connections a:hover {
+    fill: yellow;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.dark{
+      padding: 3em 0;
+      background: #103254;
+      color: #fafafa; }
+  /*--------------------- STYLING LINKS -----------------*/
+  
+  a {
+    color: #439ff6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #103254;
+    border-bottom: 2px dotted;
+}
+
+.background a:hover {
+    color: yellow;
+}
+  
+  /*------------------- NAVIGATION ------------------*/
+ nav {
+    top: 0;
+    left: 0;
+    margin: left;
+    width: 100%;
+    background-color:azure;
+    font-size: 0.85em;
+    text-align: justify;
+    padding: 1em 0;
+}
+
+
+  nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+    
+  
+  nav ul li {
+    display: inline;
+    margin: 40px;
+    background: none;}
+  
+ nav a:link
+  {
+    color: #439ff6;}
+  
+  nav a:visited 
+  {
+    color:mediumpurple;
+    text-decoration: underline;
+    font-weight:bold;
+}
+  
+  nav a:hover {
+    border-bottom: none;
+    color: yellowgreen;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+} 
+    
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 25vw;
+    font-family: 'Red Hat Text', sans-serif;
+
+  }
+  
+  /* ------------------- IMAGES -------------------- */
+  img {
+    display: block;
+    margin: auto; 
+    max-width: 100%; 
+    text-align:center;
+}
+
+/*-------------Footer----------*/
+footer {
+    float: inherit;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    bottom:auto;
+     background-color:azure;
+    
+}
+  
